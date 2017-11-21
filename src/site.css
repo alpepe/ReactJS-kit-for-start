@@ -1,14 +1,16 @@
 a.nav-link {
     display: inline-block;
-    color: rgb(255, 255, 255, 0.75);
+    color: #dfeeff;
 }
 
 a.nav-link:hover {
     color: white;
+    text-shadow: 1px 1px 50px rgb(255, 255, 255);
 }
 
 a.nav-link.active {
-    color: white;
+    color: #ffffff;
+    text-shadow: 1px 1px 50px rgb(255, 255, 255);
 }
 
 .space-top {
@@ -16,7 +18,7 @@ a.nav-link.active {
 }
 
 .navbar span {
-    color: #bbbbbb;
+    color: #ffffff;
 }
 
 .card-blockquote>img {
@@ -43,8 +45,14 @@ th, td{
 
 .bg-secondary {
     color: #666666 !important ;
-    background-color: wheat !important;
+    background-color: #4b6785 !important;
 }
 body{
-    background-color: beige
+    background-color: rgb(255, 255, 255)
+}
+.form-control-feedback{
+    color: rgb(255, 101, 101);
+}
+.red{
+    box-shadow: 1px 1px 5px red;
 }

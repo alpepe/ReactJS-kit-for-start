@@ -3,7 +3,8 @@ import { Route, Switch, withRouter } from 'react-router-dom';
 import Header from './components/common/Header';
 import RegisterPage from './components/Auth/RegisterPage';
 import LoginPage from './components/Auth/LoginPage';    
-import HomePage from './components/HomePage'
+import HomePage from './components/HomePage';
+import toastr from 'toastr'
 
 class App extends Component {
     constructor(props) {
@@ -15,6 +16,7 @@ class App extends Component {
     onLogout() {
         localStorage.clear();
         this.props.history.push('/');
+        toastr.success("Logout");
     }
 
     render() {

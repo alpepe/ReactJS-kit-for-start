@@ -3,10 +3,16 @@ import React, { Component } from 'react';
 export default class HomePage extends Component {
 
     render() {
-        
+
 
         return (
- <h1>HomePage</h1>
+            <div className="container">
+                <div className="row space-top">
+                    <div className="col-md-12">
+                        <h1>Home page</h1>
+                    </div>
+                </div>
+            </div>
         );
     }
 }
